@@ -1,3 +1,4 @@
+<img src="img/clock.png"></img>
 #### what i learned from it
 How to automatically run a function in a time interval
 ```js
