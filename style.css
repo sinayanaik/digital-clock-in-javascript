@@ -2,7 +2,7 @@
 body {
     font-family: 'Train One', cursive;
     overflow: hidden;
-    background-color: brown;
+    background-color: #081c15;
 }
 
 .container {
@@ -15,24 +15,24 @@ body {
 }
 
 .digitalClock {
-    border: 1px solid brown;
     width: fit-content;
     margin: auto;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 1%;
     color: rgb(24, 89, 109);
-    background-color: white;
+    background-color: #439775;
 }
 
 .digitalClock h1 {
     display: inline-block;
     margin: 0 10px;
     font-size: 5rem;
+    color: #E8F8C1;
 }
 
 #bar1,
 #bar2 {
-    color: yellow;
+    color: black;
 }
 
 @media(max-width:768px) {
