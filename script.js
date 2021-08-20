@@ -23,5 +23,5 @@ function calculateTime() {
     document.getElementById('minute').innerHTML = minute;
     document.getElementById('ampm').innerHTML = ampm;
     document.getElementById('second').innerHTML = second;
-    setTimeout(calculateTime, 200);
+    setTimeout(calculateTime, 999);
 }
