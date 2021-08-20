@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Train+One&display=swap');
+body {
+    font-family: 'Train One', cursive;
+    overflow: hidden;
+    background-color: brown;
+}
+
+.container {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digitalClock {
+    border: 1px solid brown;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    color: rgb(24, 89, 109);
+    background-color: white;
+}
+
+.digitalClock h1 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 5rem;
+}
+
+#bar1,
+#bar2 {
+    color: yellow;
+}
+
+@media(max-width:768px) {
+    #bar1,
+    #bar2 {
+        display: none;
+    }
+    .digitalClock {
+        text-align: center;
+        width: 100%;
+    }
+    .digitalClock h1 {
+        display: block;
+        font-size: 4rem;
+    }
+}
